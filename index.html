@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a href="#home">LOGO</a>
+      </h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#intro">Intro</a></li>
+          <li><a href="#grid-one">Grid One</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#grid-two">Grid Two</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="home" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>what's the purpose of this site?</h2>
+        <p>I built this site as a way of putting into practice the concepts of HTML and CSS, and throughout it I set up
+          and organized the site into sections each containing a specific content. </p>
+
+      </div>
+      <div class="intro-img">
+        <img src="./assets/img/javascript.svg"
+          alt="Drawings of a man holding a CSS logo, a woman holding a js logo and a man holding CSS logo to.">
+      </div>
+    </div>
+  </section>
+
+  <section id="intro" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>intro section</h2>
+      <p>This section would be like a traditional detailed introduction to websites. Here and in the following sections
+        I created a whole background separation that differentiates one section from another using HTML in structuring
+        and CSS in styling.</p>
+      <p>In the following sections, I tried to use a little of each resource as training, like a gallery, where I linked
+        several images and styled their layout.</p>
+      <p>In another I used the concepts of CSS Grid Layout and to finish I built an example of a contact form with name,
+        email and stylized message fields.</p>
+    </div>
+  </section>
+
+  <section id="grid-one" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Grid one</h2>
+      <p class="grid-description">A brief description:</p>
+      <div class="grid">
+        <article>
+          <h3>Exemple Title 1</h3>
+          <p>CSS Grid layout is a W3C specification designed to provide a two-dimensional method for creating CSS
+            layouts that provides the ability to "layout" page items using rows and columns. CSS grid can be used to get
+            a multitude of different layouts. </p>
+        </article>
+        <article>
+          <h3>Exemple Title 2</h3>
+          <p>The differential of this method of creating layouts lies in the possibility of dividing a page into large
+            regions and of defining the relationship in terms of measurements, positioning and layers between the
+            different components of the HTML markup. </p>
+        </article>
+        <article>
+          <h3>Exemple Title 3</h3>
+          <p>Like tables, grid layout allows the author to align page components using rows and columns. However, unlike
+            tables, grid layout is not based on content structuring, allowing a huge variety of layouts, which is not
+            possible to obtain using tables. For example: child elements of a grid container can be positioned at will
+            by overlapping or changing layers, in the same way as using the functionalities of our well-known CSS
+            positioning. </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="grid-one white-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Gallery</h2>
+      <p class="grid-description">exemplification</p>
+
+      <div class="grid">
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=1" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=2" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=3" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=4" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=5" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=6" alt="random image from unsplash" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="grid-two" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Grid Two</h2>
+      <p class="grid-description">This would be another grid session, which I added to add more content to the site:</p>
+
+      <div class="grid">
+        <article>
+          <h3>Exemple Title 1</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+            provident maiores.</p>
+        </article>
+        <article>
+          <h3>Exemple Title 2</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+            provident maiores.</p>
+        </article>
+        <article>
+          <h3>Exemple Title 2</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+            provident maiores.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>HTML Table</h2>
+      <p>
+        HTML table tag is used to display data in tabular form (row * column). There can be many columns in a row.<br>
+        We can create a table to display data in tabular form, using "table" element, with the help of "tr" , "td", and
+        "th" elements.
+      </p>
+      <p>
+        In Each table, table row is defined by "tr" tag, table header is defined by "th", and table data is defined by
+        "td" tags.<br>An HTML table may also include "caption", "colgroup", "thead", "tfoot", and "tbody" elements.
+      </p>
+
+      <div class="responsive-table">
+        <table>
+          <caption>Exemple of Pricing table</caption>
+
+          <thead>
+            <tr>
+              <th>Title 1</th>
+              <th>Title 2</th>
+              <th>Title 3</th>
+              <th>Title 4</th>
+              <th>Title 5</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 2</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+            </tr>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 2</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+            </tr>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 2</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>Testando</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>contact form layout</h2>
+        <p>I created this section as an example of a contact form that we usually see on websites out there.</p>
+      </div>
+      <div class="intro-img">
+        <img src="assets/img/javascript.svg" alt="Logo de HTML, CSS e JS.">
+      </div>
+      <div class="contact-form">
+        <fieldset class="form-grid">
+          <legend>Contact me</legend>
+
+          <div class="form-group">
+            <label for="first-name">First name</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Your name">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">last name</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Your e-mail">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">Send message</button>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </section>
+
+
+  <footer id="footer" class="footer white-bg">
+    <p><a rel="nofollow" target="_blank" href="https://eduardochamp1.github.io/"> Made by <span class="heart">❤</span>
+        por José Zouain</a></p>
+  </footer>
+
+  <a class="back-to-top" href="#">➤</a>
+
+</body>
+
+</html>
